@@ -6,7 +6,7 @@ require 'capistrano/rvm'
 require 'capistrano/bundler'
 require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
-require "whenever/capistrano"
+# require "whenever/capistrano"
 # set :whenever_command, "bundle exec whenever"
 # require 'capistrano/sidekiq'
 require 'capistrano/puma'
