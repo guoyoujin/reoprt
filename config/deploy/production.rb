@@ -5,7 +5,7 @@
 # property set.  Don't declare `role :all`, it's a meta role.
 set :stage, :production
 
-server '120.24.175.154', user:'root', roles: %w{web app db}
+server '120.24.175.154', user:'gyj', roles: %w{web app db}
 
 set :deploy_to, "/project/report"
 

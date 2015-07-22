@@ -22,7 +22,7 @@ set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 set :keep_releases, 5
 
 set :ssh_options, {
-  user: 'root',
+  user: 'gyj',
   keys: [File.expand_path('~/.ssh/id_rsa')],
   forward_agent: false,
   auth_methods: %w(publickey)
